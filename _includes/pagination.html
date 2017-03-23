@@ -2,9 +2,9 @@
   <ul>
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <li><a class="next" href="{{ "/" | prepend: site.baseurl }}" title="Articles new">&laquo; Prev</a></li>
+        <li><a class="next" href="{{ "/" | prepend: site.baseurl }}" title="Articles new">&laquo; 上一页1</a></li>
       {% else %}
-        <li><a class="next" href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/" title="Articles new">&laquo; Prev</a></li>
+        <li><a class="next" href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/" title="Articles new">&laquo; 上一页2</a></li>
       {% endif %}
     {% endif %}
 
